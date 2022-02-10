@@ -39,7 +39,7 @@ class CreateTransactionForm extends AsyncForm {
     Transaction.create(data, (err, response) => {
       if (response && response.success) {
         App.update();
-        App.getModal('new'+data.type.charAt(0).toUpperCase() + data.type.slice(1)).close();        
+        App.getModal('new' + data.type.charAt(0).toUpperCase() + data.type.slice(1)).close();
       }
     });
   }

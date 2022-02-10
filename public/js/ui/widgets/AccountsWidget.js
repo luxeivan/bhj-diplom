@@ -35,11 +35,7 @@ class AccountsWidget {
     createAccount.addEventListener('click', event => {
       App.getModal('createAccount').open();
     });
-    for (const account of this.element.querySelectorAll('.account')) {
-      account.addEventListener('click', event => {
-        this.onSelectAccount(event.target);
-      });
-    }
+
   }
 
   /**
@@ -57,8 +53,14 @@ class AccountsWidget {
       Account.list(User.current(), (err, response) => {
         if (response && response.data) {
           this.clear();
-          for(const elem of response.data){
+          for (const elem of response.data) {
             this.renderItem(elem);
+          }
+          for (const account of this.element.querySelectorAll('.account')) {
+            account.addEventListener('click', event => {
+              event.preventDefault();
+              this.onSelectAccount(event.currentTarget);
+            });
           }
         }
       });
@@ -88,6 +90,7 @@ class AccountsWidget {
       account.classList.remove('active');
     };
     element.classList.add('active');
+    App.showPage('transactions', { account_id: element.dataset.id });
   }
 
   /**
@@ -97,7 +100,7 @@ class AccountsWidget {
    * */
   getAccountHTML(item) {
     return `
-      <li class="active account" data-id="${item.id}">
+      <li class="account" data-id="${item.id}">
           <a href="#">
               <span>${item.name}</span> /
               <span>${item.sum} ₽</span>
@@ -112,7 +115,7 @@ class AccountsWidget {
    * AccountsWidget.getAccountHTML HTML-код элемента
    * и добавляет его внутрь элемента виджета
    * */
-  renderItem(data) {    
-    this.element.insertAdjacentHTML('beforeend',this.getAccountHTML(data));
+  renderItem(data) {
+    this.element.insertAdjacentHTML('beforeend', this.getAccountHTML(data));
   }
 }

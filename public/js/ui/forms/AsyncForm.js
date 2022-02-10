@@ -41,7 +41,7 @@ class AsyncForm {
    * */
   getData() {
     const obj = {};
-    for (const elem of this.element.querySelectorAll('input')) {
+    for (const elem of this.element.querySelectorAll('input, select')) {
       obj[elem.getAttribute('name')] = elem.value;
     }
     return obj;

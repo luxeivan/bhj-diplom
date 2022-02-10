@@ -35,11 +35,6 @@
       "id": "1hnbrhckzb0a8rf"
     },
     {
-      "name": "321",
-      "user_id": "1hnbr17ckzayj03f",
-      "id": "1hnbr864kzb0abn2"
-    },
-    {
       "name": "Sber",
       "user_id": "1hnbr17ckzayj03f",
       "id": "1hnbr2cckzb0gjyi"
@@ -48,16 +43,6 @@
       "name": "VTB",
       "user_id": "1hnbr17ckzayj03f",
       "id": "1hnbre58kzb0j5t9"
-    },
-    {
-      "name": "OpenBank",
-      "user_id": "1hnbr17ckzayj03f",
-      "id": "1hnbr3bskzb0jqzs"
-    },
-    {
-      "name": "Halyk",
-      "user_id": "1hnbr17ckzayj03f",
-      "id": "1hnbr8i0kzb0kj0t"
     },
     {
       "name": "kaspi",
@@ -248,6 +233,57 @@
       "sum": 100000,
       "user_id": "1hnbr17ckzayj03f",
       "created_at": "2022-02-06T09:18:02.034Z"
+    },
+    {
+      "id": "2atxsdng70kzgo8boh",
+      "type": "income",
+      "name": "2312",
+      "sum": 400000,
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T07:40:21.664Z"
+    },
+    {
+      "id": "2atxsdn5lkkzgqbfih",
+      "type": "income",
+      "name": "12323",
+      "sum": 3321,
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T08:38:45.832Z"
+    },
+    {
+      "id": "2atxsdnc6kkzgqcy6v",
+      "type": "income",
+      "name": "333",
+      "sum": 333,
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T08:39:56.694Z"
+    },
+    {
+      "id": "2atxsdn8qwkzgrc7ag",
+      "type": "income",
+      "name": "432",
+      "sum": 432,
+      "account_id": "1hnbrhckzb0a8rf",
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T09:07:21.447Z"
+    },
+    {
+      "id": "2atxsdnedkkzgt93gt",
+      "type": "expense",
+      "name": "3423",
+      "sum": 444,
+      "account_id": "1hnbrhckzb0a8rf",
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T10:00:55.756Z"
+    },
+    {
+      "id": "2atxsdn4fokzgt9ath",
+      "type": "income",
+      "name": "4444",
+      "sum": 4444,
+      "account_id": "1hnbrhckzb0a8rf",
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T10:01:05.284Z"
     }
   ]
 }
