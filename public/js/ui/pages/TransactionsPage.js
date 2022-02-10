@@ -40,9 +40,15 @@ class TransactionsPage {
     this.element.querySelector(".remove-account").addEventListener("click", (event) => {
       this.removeAccount();
     });
-    /* this.element.querySelector('.transaction__remove').addEventListener('click', event => {
-      this.removeTransaction(event.target.dataset.id);
-    }); */
+    if (this.element.querySelectorAll('.transaction__remove')) {
+      for (const item of this.element.querySelectorAll('.transaction__remove')) {
+        item.addEventListener('click', event => {
+          this.removeTransaction(event.target.dataset.id);
+        });
+      }
+
+    }
+
   }
 
   /**
@@ -56,10 +62,7 @@ class TransactionsPage {
    * */
   removeAccount() {
     if (confirm('Вы точно хотите удалить счет?')) {
-      console.log(this.lastOptions)
       Account.remove({ id: this.lastOptions.account_id }, (err, response) => {
-        console.log(err);
-        console.log(response);
         if (response && response.success) {
           App.updateWidgets();
           App.updateForms();
@@ -189,8 +192,6 @@ class TransactionsPage {
     for (const item of data) {
       this.element.querySelector('.content').insertAdjacentHTML('beforeend', this.getTransactionHTML(item));
     }
-    this.element.querySelector('.transaction__remove').addEventListener('click', event => {
-      this.removeTransaction(event.target.dataset.id);
-    });
+    this.registerEvents();
   }
 }

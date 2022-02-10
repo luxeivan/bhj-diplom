@@ -30,24 +30,29 @@
       "id": "3"
     },
     {
-      "name": "123",
-      "user_id": "1hnbr17ckzayj03f",
-      "id": "1hnbrhckzb0a8rf"
-    },
-    {
-      "name": "Sber",
-      "user_id": "1hnbr17ckzayj03f",
-      "id": "1hnbr2cckzb0gjyi"
-    },
-    {
       "name": "VTB",
       "user_id": "1hnbr17ckzayj03f",
       "id": "1hnbre58kzb0j5t9"
     },
     {
-      "name": "kaspi",
+      "name": "Sber",
       "user_id": "1hnbr17ckzayj03f",
-      "id": "1hnbrd0okzb0kxnm"
+      "id": "2atxsdni58kzgztlrq"
+    },
+    {
+      "name": "Tinkoff",
+      "user_id": "1hnbr17ckzayj03f",
+      "id": "2atxsdn8k8kzgzyun6"
+    },
+    {
+      "name": "Russian standart",
+      "user_id": "1hnbr17ckzayj03f",
+      "id": "2atxsdnhd8kzgzz59d"
+    },
+    {
+      "name": "BankOpen",
+      "user_id": "1hnbr17ckzayj03f",
+      "id": "2atxsdn8e8kzgzzcah"
     }
   ],
   "transactions": [
@@ -259,31 +264,112 @@
       "created_at": "2022-02-10T08:39:56.694Z"
     },
     {
-      "id": "2atxsdn8qwkzgrc7ag",
+      "id": "2atxsdn9mwkzgzu1kg",
       "type": "income",
-      "name": "432",
-      "sum": 432,
-      "account_id": "1hnbrhckzb0a8rf",
+      "name": "123",
+      "sum": 123,
+      "account_id": "1hnbr2cckzb0gjyi",
       "user_id": "1hnbr17ckzayj03f",
-      "created_at": "2022-02-10T09:07:21.447Z"
+      "created_at": "2022-02-10T13:05:10.767Z"
     },
     {
-      "id": "2atxsdnedkkzgt93gt",
+      "id": "2atxsdnaskzgzu589",
+      "type": "income",
+      "name": "123",
+      "sum": 123,
+      "account_id": "1hnbr2cckzb0gjyi",
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T13:05:15.512Z"
+    },
+    {
+      "id": "2atxsdndokkzgzv7yv",
+      "type": "income",
+      "name": "123",
+      "sum": 123,
+      "account_id": "1hnbr2cckzb0gjyi",
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T13:06:05.718Z"
+    },
+    {
+      "id": "2atxsdn4ockzgzxxt5",
+      "type": "income",
+      "name": "123",
+      "sum": 123,
+      "account_id": "2atxsdni58kzgztlrq",
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T13:08:12.520Z"
+    },
+    {
+      "id": "2atxsdndlskzgzy1ea",
       "type": "expense",
-      "name": "3423",
-      "sum": 444,
-      "account_id": "1hnbrhckzb0a8rf",
+      "name": "321",
+      "sum": 321,
+      "account_id": "1hnbre58kzb0j5t9",
       "user_id": "1hnbr17ckzayj03f",
-      "created_at": "2022-02-10T10:00:55.756Z"
+      "created_at": "2022-02-10T13:08:17.169Z"
     },
     {
-      "id": "2atxsdn4fokzgt9ath",
+      "id": "2atxsdncxokzh01p5x",
       "type": "income",
-      "name": "4444",
-      "sum": 4444,
-      "account_id": "1hnbrhckzb0a8rf",
+      "name": "123",
+      "sum": 123,
+      "account_id": "1hnbre58kzb0j5t9",
       "user_id": "1hnbr17ckzayj03f",
-      "created_at": "2022-02-10T10:01:05.284Z"
+      "created_at": "2022-02-10T13:11:07.940Z"
+    },
+    {
+      "id": "2atxsdn7pckzh01rp8",
+      "type": "income",
+      "name": "123",
+      "sum": 123,
+      "account_id": "1hnbre58kzb0j5t9",
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T13:11:11.227Z"
+    },
+    {
+      "id": "2atxsdneswkzh01tuz",
+      "type": "expense",
+      "name": "123",
+      "sum": 123,
+      "account_id": "1hnbre58kzb0j5t9",
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T13:11:14.026Z"
+    },
+    {
+      "id": "2atxsdngskkzh01wp5",
+      "type": "expense",
+      "name": "321",
+      "sum": 321,
+      "account_id": "1hnbre58kzb0j5t9",
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T13:11:17.704Z"
+    },
+    {
+      "id": "2atxsdn4r8kzh020v8",
+      "type": "income",
+      "name": "123123",
+      "sum": 123123,
+      "account_id": "1hnbre58kzb0j5t9",
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T13:11:23.107Z"
+    },
+    {
+      "id": "2atxsdn79okzh0263g",
+      "type": "income",
+      "name": "1233",
+      "sum": 1233,
+      "account_id": "2atxsdnhd8kzgzz59d",
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T13:11:29.883Z"
+    },
+    {
+      "id": "2atxsdncnwkzh03r7w",
+      "type": "income",
+      "name": "333",
+      "sum": 333,
+      "account_id": "2atxsdn8k8kzgzyun6",
+      "user_id": "1hnbr17ckzayj03f",
+      "created_at": "2022-02-10T13:12:43.915Z"
     }
   ]
 }
